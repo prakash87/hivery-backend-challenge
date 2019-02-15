@@ -1,0 +1,6 @@
+# Pycharm stuff:
+.idea
+
+# Django:
+*.pyc
+migrations
