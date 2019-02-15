@@ -11,7 +11,8 @@ class Command(BaseCommand):
 
     COMPANIES_FILE = os.path.join(settings.BASE_DIR, 'resources/companies.json')
     PEOPLE_FILE = os.path.join(settings.BASE_DIR, 'resources/people.json')
-    INDEX_PREFIX = get_timestamp_prefix()
+
+    index_prefix = get_timestamp_prefix()
 
     def handle(self, *args, **options):
         self.stdout.write('-----------------------------------------------------')
@@ -24,17 +25,17 @@ class Command(BaseCommand):
 
             # --- Creating companies ---
             for company_json in companies_json:
-                get_or_create_company(company_json, Command.INDEX_PREFIX)
+                get_or_create_company(company_json, Command.index_prefix)
             self.stdout.write(self.style.SUCCESS('Created companies. Now creating people.'))
 
             # --- Creating people ---
             for person_json in people_json:
-                get_or_create_person(person_json, Command.INDEX_PREFIX)
+                get_or_create_person(person_json, Command.index_prefix)
             self.stdout.write(self.style.SUCCESS('Created people. Now assigning following (friends).'))
 
             #  --- Assigning person to people he/she is following ---
             for person_json in people_json:
-                assign_person_following(person_json, Command.INDEX_PREFIX)
+                assign_person_following(person_json, Command.index_prefix)
             self.stdout.write(self.style.SUCCESS('Assigned people to person following'))
 
         self.stdout.write(self.style.SUCCESS('All done.'))
