@@ -24,7 +24,7 @@ def get_or_create_company(company_json, index_prefix):
     company, created = Company.objects.get_or_create(name=company_json['company'])
 
     if created:
-        company.index_with_prefix = index_prefix+str(company_json['index'])
+        company.index_with_prefix = index_prefix + str(company_json['index'])
         company.save()
 
     return company
@@ -79,7 +79,7 @@ def get_or_create_person(person_json, index_prefix):
         person.registration_date = parser.parse(person_json['registered'])
 
         try:
-            company = Company.objects.get(index_with_prefix=index_prefix+str(person_json['company_id']))
+            company = Company.objects.get(index_with_prefix=index_prefix + str(person_json['company_id']))
         except Company.DoesNotExist:
             company = None
 
@@ -139,4 +139,3 @@ def assign_person_following(person_json, index_prefix):
                     person_main.following.add(person_who_main_person_is_following)
 
         person_main.save()
-

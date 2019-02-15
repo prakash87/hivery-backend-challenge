@@ -3,7 +3,8 @@ import os
 from django.conf import settings
 from django.core.management.base import BaseCommand
 
-from paranuara.data_loader import get_or_create_company, get_or_create_person, assign_person_following, get_timestamp_prefix
+from paranuara.data_loader import get_or_create_company, get_or_create_person, assign_person_following, \
+    get_timestamp_prefix
 
 
 class Command(BaseCommand):
@@ -39,4 +40,3 @@ class Command(BaseCommand):
             self.stdout.write(self.style.SUCCESS('Assigned people to person following'))
 
         self.stdout.write(self.style.SUCCESS('All done.'))
-

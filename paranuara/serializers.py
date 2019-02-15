@@ -4,7 +4,6 @@ from paranuara.models import Person, Company, Food
 
 
 class PersonListSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Person
         fields = ('id', 'name')
@@ -19,7 +18,6 @@ class PersonContactDetailSerializer(serializers.ModelSerializer):
 
 
 class CompanyListSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Company
         fields = ('id', 'name')

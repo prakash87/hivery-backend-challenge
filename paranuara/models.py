@@ -2,7 +2,6 @@
 Models for the application
 """
 import datetime
-
 import django.db.models as models
 
 

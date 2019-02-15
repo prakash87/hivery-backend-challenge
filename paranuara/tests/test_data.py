@@ -1,12 +1,12 @@
 COMPANY1 = {
     "index": 2,
     "company": "LINGOAGE"
-  }
+}
 
 COMPANY2 = {
     "index": 5,
     "company": "INTERLOO"
-  }
+}
 
 PERSON1 = {
     "_id": "595eeb9b96d80a5bc7afb106",
@@ -26,33 +26,33 @@ PERSON1 = {
     "about": "Non duis dolore ad enim. Est id reprehenderit cupidatat tempor excepteur. Cupidatat labore incididunt nostrud exercitation ullamco reprehenderit dolor eiusmod sit exercitation est. Voluptate consectetur est fugiat magna do laborum sit officia aliqua magna sunt. Culpa labore dolore reprehenderit sunt qui tempor minim sint tempor in ex. Ipsum aliquip ex cillum voluptate culpa qui ullamco exercitation tempor do do non ea sit. Occaecat laboris id occaecat incididunt non cupidatat sit et aliquip.\r\n",
     "registered": "2016-07-13T12:29:07 -10:00",
     "tags": [
-      "id",
-      "quis",
-      "ullamco",
-      "consequat",
-      "laborum",
-      "sint",
-      "velit"
+        "id",
+        "quis",
+        "ullamco",
+        "consequat",
+        "laborum",
+        "sint",
+        "velit"
     ],
     "friends": [
-      {
-        "index": 0
-      },
-      {
-        "index": 1
-      },
-      {
-        "index": 2
-      }
+        {
+            "index": 0
+        },
+        {
+            "index": 1
+        },
+        {
+            "index": 2
+        }
     ],
     "greeting": "Hello, Carmella Lambert! You have 6 unread messages.",
     "favouriteFood": [
-      "orange",
-      "apple",
-      "banana",
-      "strawberry"
+        "orange",
+        "apple",
+        "banana",
+        "strawberry"
     ]
-  }
+}
 
 PERSON2 = {
     "_id": "595eeb9b1e0d8942524c98ad",
@@ -72,33 +72,33 @@ PERSON2 = {
     "about": "Consectetur aute consectetur dolor aliquip dolor sit id. Sint consequat anim occaecat ad mollit aliquip ut aute eu culpa mollit qui proident eu. Consectetur ea et sit exercitation aliquip officia ea aute exercitation nulla qui sunt labore. Enim veniam labore do irure laborum aute exercitation consectetur. Voluptate adipisicing velit sunt consectetur id sint adipisicing elit elit pariatur officia amet officia et.\r\n",
     "registered": "2017-06-25T10:03:49 -10:00",
     "tags": [
-      "veniam",
-      "irure",
-      "mollit",
-      "sunt",
-      "amet",
-      "fugiat",
-      "ex"
+        "veniam",
+        "irure",
+        "mollit",
+        "sunt",
+        "amet",
+        "fugiat",
+        "ex"
     ],
     "friends": [
-      {
-        "index": 0
-      },
-      {
-        "index": 1
-      },
-      {
-        "index": 2
-      }
+        {
+            "index": 0
+        },
+        {
+            "index": 1
+        },
+        {
+            "index": 2
+        }
     ],
     "greeting": "Hello, Decker Mckenzie! You have 2 unread messages.",
     "favouriteFood": [
-      "cucumber",
-      "beetroot",
-      "carrot",
-      "celery"
+        "cucumber",
+        "beetroot",
+        "carrot",
+        "celery"
     ]
-  }
+}
 
 PERSON3 = {
     "_id": "595eeb9bb3821d9982ea44f9",
@@ -118,30 +118,30 @@ PERSON3 = {
     "about": "Non voluptate reprehenderit ad elit veniam nulla ut ea ex. Excepteur exercitation aliquip Lorem nisi duis. Ex cillum commodo labore sint non velit aliquip cupidatat sint. Consequat est sint do in eiusmod minim exercitation do consectetur incididunt culpa deserunt. Labore veniam elit duis minim magna et laboris sit labore eu velit cupidatat cillum cillum.\r\n",
     "registered": "2017-06-08T04:23:18 -10:00",
     "tags": [
-      "quis",
-      "sunt",
-      "sit",
-      "aliquip",
-      "pariatur",
-      "quis",
-      "nulla"
+        "quis",
+        "sunt",
+        "sit",
+        "aliquip",
+        "pariatur",
+        "quis",
+        "nulla"
     ],
     "friends": [
-      {
-        "index": 0
-      },
-      {
-        "index": 1
-      },
-      {
-        "index": 2
-      }
+        {
+            "index": 0
+        },
+        {
+            "index": 1
+        },
+        {
+            "index": 2
+        }
     ],
     "greeting": "Hello, Bonnie Bass! You have 10 unread messages.",
     "favouriteFood": [
-      "orange",
-      "beetroot",
-      "banana",
-      "strawberry"
+        "orange",
+        "beetroot",
+        "banana",
+        "strawberry"
     ]
-  }
+}

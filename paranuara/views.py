@@ -45,6 +45,7 @@ class PersonCompare(APIView):
     """
     Retrieve information of two or more people, show their following in common.
     """
+
     def get(self, request, comma_separated_ids, format=None):
         person_ids = comma_separated_ids.split(',')
         filter_by = dict(request.GET.items())
